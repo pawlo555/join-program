@@ -12,7 +12,7 @@ I joined each chunk from first file with each chunk from second file.
 To calculate left/right join I keep loaded chunk from first file and create a copy of it
 to keep data that are now in chunks from second file.
 
-## 
+## Running
 Run:
 `python main.py first.csv second.csv column_name mode`
 

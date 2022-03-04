@@ -20,6 +20,6 @@ To create exe file use pyinstaller:
 `pyinstaller --onefile main.py`
 
 
-##Future to do:
+## Future to do:
 - change output to be saved in file (then loaded read part by part then displayed and removed)
 - decrease exe size (to upload to github)

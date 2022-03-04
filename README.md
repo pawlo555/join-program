@@ -12,6 +12,14 @@ I joined each chunk from first file with each chunk from second file.
 To calculate left/right join I keep loaded chunk from first file and create a copy of it
 to keep data that are now in chunks from second file.
 
+## 
+Run:
+`python main.py first.csv second.csv column_name mode`
 
-Future to do:
+To create exe file use pyinstaller:
+`pyinstaller --onefile main.py`
+
+
+##Future to do:
 - change output to be saved in file (then loaded read part by part then displayed and removed)
+- decrease exe size (to upload to github)
